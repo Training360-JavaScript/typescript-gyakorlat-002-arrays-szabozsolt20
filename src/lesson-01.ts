@@ -13,7 +13,8 @@ export default class calculator {
      * Inicializáld a tömböt, legyen legalább két eleme.
      * @type {Array} users - minden elem egy felhasználó.
      */
-     users: Array<{name: string, email: string}> = [
+    // users: Array<{name: string, email: string}> = [
+     users: {name: string, email: string}[] = [
          {name: 'string1', email: 'string2'},
          {name: 'string3', email: 'string4'}
      ];
@@ -25,7 +26,8 @@ export default class calculator {
      * Inicializáld a tömböt, legyen legalább két eleme.
      * @type {Array} products - minden elem egy termék.
      */    
-     products: Array<{name: string, price: number, stock: number; active?: boolean }> = [
+     //products: Array<{name: string, price: number, stock: number; active?: boolean }> = [
+     products: {name: string, price: number, stock: number; active?: boolean }[] = [
         {name: 'string1', price: 0, stock: 1, active: true},
         {name: 'string2', price: 2, stock: 3, active: true}
      ];
